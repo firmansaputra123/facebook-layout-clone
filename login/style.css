@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 960px;
+  height: 540px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.container:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.container .img {
+  position: relative;
+  flex: 1.3;
+  overflow: hidden;
+  background-image: url(../aset/139299526_p0-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: 0 89px;
+  background-size: 450px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: rgb(3, 31, 239);
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+.container .login {
+  flex: 1;
+  padding: 7px;
+  box-sizing: border-box;
+}
+.login h1 {
+  font-size: 30px;
+  margin-top: 70px;
+  /* margin-left: 50px; */
+  font-family: sans-serif;
+  height: 20px;
+  font-weight: 600;
+}
+.login form {
+  width: 390px;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+form svg {
+  width: 19px;
+  height: 19px;
+}
+form .satu {
+  border-bottom: 2px solid rgb(181, 176, 176);
+  padding: 0 0 2px 0;
+  display: flex;
+  gap: 4px;
+}
+form .satu input {
+  width: 340px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+form .dua {
+  border-bottom: 2px solid rgb(180, 177, 177);
+  padding: 0 0 2px 0;
+  display: flex;
+  gap: 4px;
+}
+.login #checkbox {
+  margin-top: 14px;
+}
+form .dua input {
+  width: 340px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+.login label {
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+}
+.login button {
+  margin-top: 20px;
+  width: 70px;
+  height: 25px;
+  background-color: rgb(24, 71, 226);
+  border: none;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+footer p {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+footer svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+footer .google {
+  width: 35px;
+  height: 35px;
+}
